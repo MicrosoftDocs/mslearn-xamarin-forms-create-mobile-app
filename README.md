@@ -1,3 +1,7 @@
+# Microsoft Learn: Create a mobile app with Xamarin.Forms
+
+[//]: # (TODO: Link back to Microsoft Learn module.)
+This project contains the source code for the **Create a mobile app with Xamarin.Forms** Microsoft Learn module.
 
 # Contributing
 
