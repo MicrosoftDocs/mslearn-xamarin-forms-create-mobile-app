@@ -1,10 +1,8 @@
-﻿using System;
+﻿using Xamarin.Forms;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Essentials;
-using Xamarin.Forms;
 
 namespace Phoneword
 {
@@ -51,7 +49,7 @@ namespace Phoneword
             this.Content = panel;
         }
 
-        void OnTranslate(object sender, EventArgs e)
+        private void OnTranslate(object sender, EventArgs e)
         {
             string enteredNumber = phoneNumberText.Text;
             translatedNumber = Core.PhonewordTranslator.ToNumber(enteredNumber);
